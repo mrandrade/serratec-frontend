@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+header {
+  height: 5em;
+  background-color: #142e45;
+}
+header span {
+  color: #fff;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  position: absolute;
+  padding-top: 3vh;
+  padding-left: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+body {
+  background-color: aqua;
+}
+.container {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.container h1 {
+  text-align: center;
+}
+.container button {
+  background-color: #142e45;
+}
+.container table {
+  text-align: center;
+}
+footer {
+  height: 5em;
+  background-color: #142e45;
+}
+footer span {
+  color: #fff;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  position: absolute;
+  padding-top: 3vh;
+  padding-left: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}

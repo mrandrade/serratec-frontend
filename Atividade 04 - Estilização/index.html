@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>FLIX - Sistema De Locadoras</title>
+  </head>
+  <body>
+    <header>
+      <span>FLIX - Sistema De Locadoras</span>
+    </header>
+    <div class="container">
+      <h1>Cadastrar Filmes</h1>
+      <form>
+        <div class="form-group">
+          <label for="inputFilme">Informe o título do filme:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputFilme"
+            placeholder="Filme"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputAno">Informe o ano de lançamento do filme:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAno"
+            placeholder="Ano de Lançamento"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputSinopse">Informe a sinopse do filme:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAno"
+            placeholder="Sinopse"
+          />
+        </div>
+        <div id="inputLabel">
+          <label for="inputLabel"
+            >Adicione o arquivo de imagem do poster do filme:</label
+          >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Upload</span>
+            </div>
+            <div class="custom-file">
+              <input
+                type="file"
+                class="custom-file-input"
+                id="inputGroupFile01"
+              />
+              <label class="custom-file-label" for="inputGroupFile01"
+                >Escolha o arquivo</label
+              >
+            </div>
+          </div>
+        </div>
+        <div>
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </div>
+      </form>
+      <h1>Lista De Filmes</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Título</th>
+            <th scope="col">Lançamento</th>
+            <th scope="col">Sinopse</th>
+            <th scope="col">Poster</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2001 - Uma Odisseia no Espaço</td>
+            <td>1968</td>
+            <td>
+              Uma estrutura imponente preta fornece uma conexão entre o passado
+              e o futuro nesta adaptação enigmática de um conto reverenciado de
+              ficção científica do autor Arthur C. Clarke. Quando o Dr. Dave
+              Bowman e outros astronautas são enviados para uma misteriosa
+              missão, os chips de seus computadores começam a mostrar um
+              comportamento estranho, levando a um tenso confronto entre homem e
+              máquina que resulta em uma viagem alucinante no espaço e no tempo.
+            </td>
+            <td>
+              <img
+                src="https://br.web.img3.acsta.net/r_1920_1080/pictures/18/05/16/11/10/2735645.jpg"
+                title="2001 - Uma Odisseia no Espaço"
+                width="110px"
+                height="140px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Curtindo a Vida Adoidado</td>
+            <td>1986</td>
+            <td>
+              O adolescente Ferris Bueller decide sair da rotina e engana seus
+              pais fingindo estar doente para poder matar aula. Ele convence sua
+              namorada, Sloane, e seu melhor amigo, Cameron, a se juntarem a ele
+              no passeio até Chicago, usando a Ferrari do pai de Cameron. Mas
+              nem tudo é perfeito: o diretor da escola sabe que Ferris está
+              mentindo e vai atrás dele.
+            </td>
+            <td>
+              <img
+                src="https://picfiles.alphacoders.com/913/91397.jpg"
+                title="Três Homens em Conflito"
+                width="110px"
+                height="140px"
+              />
+            </td>
+          </tr>
+          <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+          ></script>
+          <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+          ></script>
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <footer>
+    <span>FLIX - Sistema De Locadoras</span>
+  </footer>
+</html>
